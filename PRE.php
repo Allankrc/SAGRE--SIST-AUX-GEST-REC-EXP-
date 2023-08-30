@@ -239,7 +239,7 @@
                 <tr>
                     <td><input type="date"></td>
                     <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td><input type="text"></td>    
                     <td><input type="text"></td>
                     <td><input type="file"></td>
                 </tr>
@@ -265,29 +265,11 @@
 <br>
 
 <div class="container text-center">
-  <div class="row">
-    <div class="col">
-     .
-    </div>
-    <div class="col">
-      ..
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
+ 
     <button type="submit" class="btn btn-primary">Enviar</button>
- <br>
-    </div>
-    <div class="col">
+
     <button type="button" name="clean"> Limpar </button>
 
-    </div>
-    <div class="col">
-      
-....
-
-    </div>
-  </div>
 </div>
 
 
