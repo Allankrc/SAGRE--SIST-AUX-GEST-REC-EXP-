@@ -6,8 +6,8 @@
 $host = 'http://localhost/projetos';
 
 // db
-$db_name = 'sarge_crud';
-$db_host = 'localhost';
+$db_name = 'sarge';
+$db_host = 'localhost:3306';
 $db_user = 'root';
 $db_pass = '';
 
@@ -16,3 +16,4 @@ try {
 } catch (\Throwable $th) {
   throw $th;
 }
+

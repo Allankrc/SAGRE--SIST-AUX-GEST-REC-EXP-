@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Endereço de email</label>
@@ -11,9 +11,10 @@
   </div>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+    <label class="form-check-label" for="exampleCheck1">Salvar acesso nesse dispositivo</label>
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
+  <button type="reset" class="btn btn-primary">Limpar</button>
 </form>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

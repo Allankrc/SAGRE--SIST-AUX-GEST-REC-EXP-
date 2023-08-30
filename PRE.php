@@ -1,10 +1,4 @@
-<?php
 
-
-
-
-
-?>
 <h1> Prestação de contas</h1>
 
 <input type="text" name="viagem" placeholder="Número da viagem"> </input> <br> <br>
