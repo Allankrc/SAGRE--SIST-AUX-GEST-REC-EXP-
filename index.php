@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.korzh.com/metroui/v4/js/metro.min.js"></script>
+
 
 
     <title>HOME</title>
@@ -25,11 +26,11 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       
 
-     <li class="nav-item">
+      <li class="nav-item">
         <a class="nav-link" href="?page=sol">Solicitação</a>
       </li>
 
@@ -47,7 +48,7 @@
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
+          Mais
         </a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Suporte</a>
@@ -59,12 +60,11 @@
         </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button> <pre>  </pre>
+      <a class=" btn btn-info my-2 my-sm-2" type="button" href="LOG.html">Acesso</a>
     </form>
   </div>
 </nav>
-
-
 
 
 <div class="container text-center">
@@ -85,10 +85,10 @@
         case "hist":
           include("HIST.php");
             break;
-            
+  
             default: 
             print "<div class='container text-center'><h1> Olá, bem vindo ao Sistema.</h1> </div>";
-      }
+      } 
     ?>
 
     </div>
@@ -97,7 +97,7 @@
 
 
 <div class="container text-center">
-<p> Nunca é tarde para aprender</p>
+    <p> Nunca é tarde para aprender</p>
 
 </div>
 

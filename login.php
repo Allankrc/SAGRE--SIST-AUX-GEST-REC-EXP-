@@ -1,4 +1,8 @@
 
+<h1 class="text-center">SAGRE 1.0</h1>
+    <h3 class="text-center">Sistema Auxiliar de Gestão dos Recursos de Expansão</h3>
+    <div data-role="cube"></div>
+    
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Endereço de email</label>
