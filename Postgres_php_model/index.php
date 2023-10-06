@@ -53,7 +53,7 @@
         <div class="dropdown-menu">
         <a class="  dropdown-item" href="?page=crud">CRUD</a>
           <a class="dropdown-item" href="#">Suporte</a>
-          <a class="dropdown-item" href="https://www.burgerking.com.br/">Dashboard</a>
+          <a class="dropdown-item" href="?page=dash">Dashboard</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Sair</a>
         </div>
@@ -91,6 +91,9 @@
         case "hist":
           include("historia.php");
             break;
+            case "dash":
+              include("dash.php");
+                break;
   
             default: 
             print"<p style='text-align: left; color:blue' >Início - </p> </div>";    

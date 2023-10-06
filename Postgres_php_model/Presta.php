@@ -18,13 +18,20 @@
 <p style="color:#9900FF"> Obtenção dados da viagem finalizada</p> 
 
 <br>
+<!--
+$rsxkm = $Fatorkm* $Real_km;
+$Fatorkm = "0,9";
+$Real_total = "somatudo";
+$S_final =adinatado - gasto
 
-
+if(valor final > adiantamento = $Acerto_fin  RMV 
+-->
 
 <form>
 <div class="form-group">
-<label>$Nome</label>
- <select name="estado" id="estado"> 
+<label>
+    $Nome
+        <select name="user" id="user"> 
             <option value= "0" > Escolha o usuário</option>
             <option value="1" > user 1</option>
             <option value="2" > user 2</option>
@@ -35,10 +42,12 @@
             <option value="7" > user 7</option>
             <option value="8" > user 8</option>
             <option value="9" > user 9</option>
-            <option value="10" > user 10</option>
+            <option value="10" > user 10</option> 
+        </select> <br>
+</label>
           
-    </select> <br>
-
+    
+<!--
 <label>$Reg</label>
     <select name="estado" id="estado"> 
             <option value= "0" > Escolha</option>
@@ -81,9 +90,10 @@
 
 </div>
 
+-->
 
 <div class="form-group">
-<label>$Viagem_N</label>	
+<label>Número da Viagem</label>	
 <select name="viagem_n' id="viagem_n> 
         <option value="0" > 0001</option>
         <option value="1" > 0002</option>
@@ -92,22 +102,18 @@
         <option value="4" > 0005</option>
     </select> <br>
 
-<label>$Real_hot</label> <input type=input name="real_hot" value= "real_hot" id="real_hot"></input> <br>
-<label>$Real_ref</label> <input type=input name="real_ref" value= "real_ref" id="real_ref"></input> <br>
-<label>$Real_out</label> <input type=input name="real_out" value= "real_out" id="real_out"></input> <br>
+<label>Realizado Hospedagem</label> <input type=input name="real_hot" value= "real_hot" id="real_hot"></input> <br>
+<label>Realizado Refeição</label> <input type=input name="real_ref" value= "real_ref" id="real_ref"></input> <br>
+<label>Realizado Outros</label> <input type=input name="real_out" value= "real_out" id="real_out"></input> <br>
 
 
-<label>$Real_km</label> <input type=input id="Real_km" value="Real_km"> </label> <br>
+<label>Kilometragem Realizada </label> <input type=input id="Real_km" value="Real_km"> </label> <br>
 
-<label>$Soma_com</label> <br> <input type="Soma_com" name="Soma_com" value="Soma_com"></input> <br>
+<label>Realizado Combustível</label> <br> <input type="Soma_com" name="Soma_com" value="Soma_com"></input> <br>
 
-<label>$Real_com</label><br>
-<label>$Rsxkm</label> <br>
-<label>$Fatorkm	</label> <br>
-<label>$Real_total</label> <br>
-<label>$Acerto_fin	</label> <br>
-<label>$S_final	</label> <br>
-<label>$Vcode (PRIMARY KEY)	</label> <br>
+
+
+
 
 </div>
 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ENVIAR</button>
