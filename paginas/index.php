@@ -81,7 +81,7 @@
           include("SOL.php");
           break;
         case "pre":
-          include("PRE.php");
+          include("prehome.php");
             break;
         case "hist":
           include("HIST.php");
